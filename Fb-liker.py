@@ -1,15 +1,17 @@
 
 import os,random
-
 try:
     import requests
 except:
     os.system('pip install requests')
+    
 ##############################################################
+
 def LIKES(ups,l):
     for h in range(500):
         if 1==1:
             n=random.randint(4,999999999)
+            
             H={
                 "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
                 "Accept-Encoding":"gzip, deflate, br",
@@ -47,6 +49,7 @@ def COMONET(ucm,cm,l):
     for o in range(500):
         if 1==1:
             ra=random.randint(4,999999999)
+            
             HE={
                 "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
                 "Accept-Encoding":"gzip, deflate, br",
@@ -80,6 +83,7 @@ def COMONET(ucm,cm,l):
         else:
             pass
 ##########################################################################################################################
+
 os.system('cls || clear')
 print('''
 
